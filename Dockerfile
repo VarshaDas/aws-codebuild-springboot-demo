@@ -10,5 +10,5 @@ COPY target/varsha-test.jar varshadas-test-registry:latest.jar
 # Expose the port that your Spring Boot application listens on (default is 8080)
 EXPOSE 8080
 
- Define the command to run when the container starts
+# Define the command to run when the container starts
 CMD ["java", "-jar", "varshadas-test-registry:latest.jar"]
